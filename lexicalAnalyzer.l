@@ -43,8 +43,3 @@ yywrap() {
 	printf("Byeeeeee :-)\n");
 	exit(1);
 }
-
-
-yyerror() {
-	printf("Invalid character\n");
-}
